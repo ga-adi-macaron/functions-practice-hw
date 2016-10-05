@@ -32,3 +32,9 @@ creator:
 #### Deliverable
 
 Your pull request including your code for each of the 3 required problems. If you have time, try to add the 2 bonus problems as well.
+
+---
+
+## Licensing
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact [legal@ga.co](mailto:legal@ga.co).
