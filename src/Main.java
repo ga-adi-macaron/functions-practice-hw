@@ -5,9 +5,7 @@ import java.util.ArrayList;
  */
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println(notString("Scott"));
-        System.out.println(notString("Not Me"));
+        
     }
 
     public boolean sleepIn(boolean weekday, boolean vacation) {
