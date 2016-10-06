@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
     }
 
     public boolean sleepIn(boolean weekday, boolean vacation) {
@@ -37,5 +38,14 @@ public class Main {
         } else { newString = "not " + str; }
         return newString;
     }
-    
+
+    public String frontBack(String str) {
+        String leftBehind;
+        if (str.length() <= 1) {return str;
+        } else { leftBehind = str.substring(1, str.length()-1);
+        }
+        String newWord = str.charAt(str.length()-1) + leftBehind + str.charAt(0);
+        return newWord;
+    }
+
 }
