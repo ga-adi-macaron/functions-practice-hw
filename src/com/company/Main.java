@@ -17,7 +17,7 @@ public class Main {
         } else { sum = (a+b)*2; }
         return sum;
     }
-    
+
     public int close10(int a, int b) {
         int valueA = Math.abs(10 - a);
         int valueB = Math.abs(10 - b);
@@ -26,4 +26,16 @@ public class Main {
         } else { return 0;}
     }
 
+    public String notString(String str) {
+        String newString;
+        boolean modify;
+        if (str.length() >= 3) {String firstThree = str.substring(0,3);
+            if (firstThree.equals("not")) { modify = false;
+            } else { modify = true; }
+            if (modify) { newString = "not " + str;
+            } else {newString = str;}
+        } else { newString = "not " + str; }
+        return newString;
+    }
+    
 }
